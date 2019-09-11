@@ -1,0 +1,53 @@
+.pricingItem {
+  text-align: center;
+  padding: 80px 74px 0;
+  box-shadow: 0 1px 3px rgba(191, 205, 222, 0.75);
+}
+
+.icon {
+  margin-bottom: 40px;
+  display: inline-block;
+  width: 214px;
+  height: 162px;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+.label {
+  margin: 0 0 24px 0;
+  text-transform: uppercase;
+  font-size: 35px;
+}
+
+.capacity {
+  margin: 0 0 24px 0;
+  color: #b4b4b4;
+  font-size: 17px;
+}
+.description {
+  margin: 0 0 42px 0;
+  color: #bababa;
+  font-size: 15px;
+}
+
+.price {
+  margin: 0 0 38px 0;
+  color: #7f8c8d;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+.button {
+  margin: 0 0 84px 0;
+  border: 0;
+  padding: 18px 50px;
+  width: 200px;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.button::-moz-focus-inner {
+  border: 0;
+}
