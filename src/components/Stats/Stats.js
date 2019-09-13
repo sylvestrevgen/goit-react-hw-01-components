@@ -1,17 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styles from './Stats.module.css';
+import getRandomColor from '../../helpers/helpers';
 
 const Stats = ({ title, stats }) => {
-  const getRandomColor = () => {
-    const letters = '0123456789ABCDEF';
-    let color = '#';
-    for (let i = 0; i < 6; i += 1) {
-      color += letters[Math.floor(Math.random() * letters.length)];
-    }
-    return color;
-  };
-
   const listItems = stats.map(({ id, label, percentage }) => (
     <li
       key={id}

@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styles from './PricingPlan.module.css';
-import PricingItem from '../PricingItem/PricingItem';
+import PricingItem from './PricingItem/PricingItem';
 
 const PricingPlan = ({ items }) => {
   const planItems = items.map(

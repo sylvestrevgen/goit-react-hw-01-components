@@ -51,3 +51,27 @@
 .button::-moz-focus-inner {
   border: 0;
 }
+
+.bronze {
+  color: #dd7c4b;
+}
+
+.silver {
+  color: #c0c0c0;
+}
+
+.gold {
+  color: #dda431;
+}
+
+.bronzeBtn {
+  background-color: #dd7c4b;
+}
+
+.silverBtn {
+  background-color: #c0c0c0;
+}
+
+.goldBtn {
+  background-color: #dda431;
+}
